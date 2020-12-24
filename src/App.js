@@ -70,7 +70,7 @@ function App() {
           <button onClick={getFact} className="fact-button">
             Get a fun fact!
           </button>
-          <p className="output-section">{fact}</p>
+          <div className="output-section">{fact}</div>
         </section>
       </main>
     </Fragment>
