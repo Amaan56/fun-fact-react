@@ -1,4 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+:root {
+  --bg-color: #059669;
+  --primary-color: #065f46;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Delius', cursive;
 }
